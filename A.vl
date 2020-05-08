@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="P3WFSsPopKLLM3uph8t8yG" LanguageVersion="2020.1.0.53" Version="0.128">
+<Document xmlns:p="property" Id="P3WFSsPopKLLM3uph8t8yG" LanguageVersion="2020.1.0.57" Version="0.128">
   <NugetDependency Id="CvFUPSHwIsLN1rd2G0PTqY" Location="VL.CoreLib" Version="2020.1.0" />
   <Patch Id="Fl4MHDrN1wqPsZht54xsWJ">
     <Canvas Id="QoMG1VlYMgkLgGKAUR9SiW" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
@@ -14,14 +14,18 @@
         <FullNameCategoryReference ID="Primitive" />
       </p:NodeReference>
       <Patch Id="BWNb29rmCijQBKV28Ax4ID">
-        <Canvas Id="GRteP6umeKtLmu5bhxORYs" CanvasType="Group" />
+        <Canvas Id="GRteP6umeKtLmu5bhxORYs" CanvasType="Group">
+          <Node Bounds="455,391" Id="MaDkj3KNOg3OodH1bAr6fb">
+            <p:NodeReference LastCategoryFullName="Reactive" LastSymbolSource="VL.Reactive.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="ToBackground" />
+            </p:NodeReference>
+            <Pin Id="OvfX2uVUHRcOzwK7KEQ934" Name="Value" Kind="InputPin" />
+            <Pin Id="QkhZE56g3zXPdtWc5RblnU" Name="Result" Kind="OutputPin" />
+          </Node>
+        </Canvas>
         <Patch Id="VkCZQL6OF9dNrN4LC78P4W" Name="Create" />
         <Patch Id="AFjJL0WyFv7NLCZgtmvTfw" Name="Update" />
-        <!--
-
-    ************************  ************************
-
--->
         <ProcessDefinition Id="RVLp9fyqOFiMpv3qdPsM0b">
           <Fragment Id="P5AkpKhKKJ1NCqbaDQc5zN" Patch="VkCZQL6OF9dNrN4LC78P4W" Enabled="true" />
           <Fragment Id="J6ZQKvSw82EMVZgjFd4C5Q" Patch="AFjJL0WyFv7NLCZgtmvTfw" Enabled="true" />
@@ -29,5 +33,5 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="OfVLExFWVUhPGfQ8080sbK" Location="VL.Skia" Version="2020.1.0" />
+  <NugetDependency Id="OfVLExFWVUhPGfQ8080sbK" Location="VL.Skia" Version="2020.1.7" />
 </Document>
