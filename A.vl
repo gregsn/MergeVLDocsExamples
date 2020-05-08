@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="P3WFSsPopKLLM3uph8t8yG" LanguageVersion="2020.1.0.53" Version="0.128">
+<Document xmlns:p="property" Id="P3WFSsPopKLLM3uph8t8yG" LanguageVersion="2020.1.0.54" Version="0.128">
   <NugetDependency Id="CvFUPSHwIsLN1rd2G0PTqY" Location="VL.CoreLib" Version="2020.1.0" />
   <Patch Id="Fl4MHDrN1wqPsZht54xsWJ">
     <Canvas Id="QoMG1VlYMgkLgGKAUR9SiW" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
@@ -14,7 +14,20 @@
         <FullNameCategoryReference ID="Primitive" />
       </p:NodeReference>
       <Patch Id="BWNb29rmCijQBKV28Ax4ID">
-        <Canvas Id="GRteP6umeKtLmu5bhxORYs" CanvasType="Group" />
+        <Canvas Id="GRteP6umeKtLmu5bhxORYs" CanvasType="Group">
+          <Node Bounds="474,266" Id="IVz3ZtdmAncMdApLgZZR02">
+            <p:NodeReference LastCategoryFullName="Animation" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="LFO" />
+            </p:NodeReference>
+            <Pin Id="A99gokQBW7tM1kBNjNUl73" Name="Period" Kind="InputPin" />
+            <Pin Id="FOl9wrrSdS3QNj1U8Zwaqx" Name="Pause" Kind="InputPin" />
+            <Pin Id="EeCqkcuf0tnLyVrn9eAkBW" Name="Reset" Kind="ApplyPin" />
+            <Pin Id="NAHutCCRYiTLWuoCN6iamf" Name="Phase" Kind="OutputPin" />
+            <Pin Id="NYLH8pxfsyLQAVv9g5T7Qf" Name="On New Cycle" Kind="OutputPin" />
+            <Pin Id="LgXkjZJRU3DOyDbld4Terk" Name="Cycles" Kind="OutputPin" />
+          </Node>
+        </Canvas>
         <Patch Id="VkCZQL6OF9dNrN4LC78P4W" Name="Create" />
         <Patch Id="AFjJL0WyFv7NLCZgtmvTfw" Name="Update" />
         <!--
@@ -29,5 +42,5 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="OfVLExFWVUhPGfQ8080sbK" Location="VL.Skia" Version="2020.1.0" />
+  <NugetDependency Id="OfVLExFWVUhPGfQ8080sbK" Location="VL.Skia" Version="2020.1.1" />
 </Document>
