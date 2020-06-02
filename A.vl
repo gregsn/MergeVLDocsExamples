@@ -30,6 +30,14 @@
             <Pin Id="NYLH8pxfsyLQAVv9g5T7Qf" Name="On New Cycle" Kind="OutputPin" />
             <Pin Id="LgXkjZJRU3DOyDbld4Terk" Name="Cycles" Kind="OutputPin" />
           </Node>
+          <Node Bounds="455,391" Id="MaDkj3KNOg3OodH1bAr6fb">
+            <p:NodeReference LastCategoryFullName="Reactive" LastSymbolSource="VL.Reactive.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="ToBackground" />
+            </p:NodeReference>
+            <Pin Id="OvfX2uVUHRcOzwK7KEQ934" Name="Value" Kind="InputPin" />
+            <Pin Id="QkhZE56g3zXPdtWc5RblnU" Name="Result" Kind="OutputPin" />
+          </Node>
         </Canvas>
         <Patch Id="VkCZQL6OF9dNrN4LC78P4W" Name="Create" />
         <Patch Id="AFjJL0WyFv7NLCZgtmvTfw" Name="Update" />
