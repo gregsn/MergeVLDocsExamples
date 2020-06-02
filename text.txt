@@ -1,3 +1,5 @@
 remote
+>>>>>>>>> Temporary merge branch 2
+remote
 
 love and peace

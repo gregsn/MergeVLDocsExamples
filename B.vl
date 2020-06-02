@@ -339,13 +339,24 @@
           </Node>
         </Canvas>
         <Canvas Id="T3nvbqjr34LOY3NwKBnrmf" Name="Utilities" Position="459,348" CanvasType="Group">
+          <!--
+
+    ************************ ToSequence (Forward) ************************
+
+-->
+<<<<<<<<< Temporary merge branch 1
           <Node Name="ToSequence (Forward)" Bounds="375,144,285,343" Id="LDqLBJDiXZYNPbWF3Yn9GP">
+          <Node Name="ToSequence (Forward)" Bounds="375,144,285,343" Id="LDqLBJDiXZYNPbWF3Yn9GP">
+          <Node Name="ToSequence (Forward)" Bounds="324,276,320,333" Id="LDqLBJDiXZYNPbWF3Yn9GP">
             <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
               <Choice Kind="OperationDefinition" Name="Operation" />
             </p:NodeReference>
             <Patch Id="ORGV7UDdo0CPWTrdnNfZs7" IsGeneric="true">
               <Pin Id="E2JLYrCqdHqNm1hCC04p4A" Name="Input" Kind="InputPin" />
+<<<<<<<<< Temporary merge branch 1
               <ControlPoint Id="EgPXopmfJqvOPdcNXX4Qbm" Bounds="427,162" />
+              <ControlPoint Id="EgPXopmfJqvOPdcNXX4Qbm" Bounds="427,162" />
+              <ControlPoint Id="EgPXopmfJqvOPdcNXX4Qbm" Bounds="420,294" />
               <Link Id="FrPwFSnEtiPOLpdroGQnwP" Ids="E2JLYrCqdHqNm1hCC04p4A,EgPXopmfJqvOPdcNXX4Qbm" IsHidden="true" />
               <Link Id="KBvBataErTmOWpK4GDja3E" Ids="EgPXopmfJqvOPdcNXX4Qbm,C9Q4VUYL9m7MdRdWU7OQMK" />
               <Node Bounds="425,181,39,19" Id="OlPvaG0dC0WM4sZbfVbIbI">
@@ -368,6 +379,25 @@
               <Link Id="EQkAJ1MiRf4PHs202dvYsH" Ids="DW0MvSQYrcYP7AqGjHMbRb,P8EBW7zm8wXNm8Kwv9ytvR" />
               <Link Id="EDHLl8Ii8r3ONKykhXiuXH" Ids="JJorh9LonAcLC6dVhBaqXZ,FtZws5fuiq0P00R0Rjvxjg" IsHidden="true" />
               <Link Id="OeVgIR3gE9bPQsDNlqgBso" Ids="FtZws5fuiq0P00R0Rjvxjg,EICEUPum28eNsVWJzUzpWv" />
+              <Link Id="OQheIABl0KcL7s3zDg52xv" Ids="TYq6aJuY8P4Pr3cU2MsFmM,UbmxUFkd42YPRqSsTTHfdz" />
+              <Node Bounds="367,336,65,19" Id="CwmBmzKo9FlMwqFSGFMD2y">
+                <p:NodeReference LastCategoryFullName="Primitive.Object" LastSymbolSource="CoreLibBasics.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="OperationCallFlag" Name="IsAssigned" />
+                </p:NodeReference>
+                <Pin Id="VYfSCJpcFQ9Oo1VdLp3jvW" Name="X" Kind="InputPin" />
+                <Pin Id="UBc9sff1QZOM6BZyykASgJ" Name="Result" Kind="OutputPin" />
+                <Pin Id="TS0Vsbz4cd7Oi4Jkj4TtJv" Name="Not Assigned" Kind="OutputPin" />
+              </Node>
+              <Link Id="ADo9DNWK2LWOpmQDXSTYn1" Ids="EgPXopmfJqvOPdcNXX4Qbm,VYfSCJpcFQ9Oo1VdLp3jvW" />
+              <Node Bounds="347,372,285,200" Id="REbD9mUH1BoNCeb5QKlpFF">
+                <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                  <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
+                  <Choice Kind="ApplicationStatefulRegion" Name="If" />
+                  <CategoryReference Kind="Category" Name="Primitive" />
+              <ControlPoint Id="GFg9JWLsim9QOm6BHPU6Ys" Bounds="412,592" />
+              <Pin Id="M91TpUsmVZaMOiuM6JZeOI" Name="Output" Kind="OutputPin" Bounds="462,563" />
+              <Link Id="NAbR81nqK2KMcA6wocGkWq" Ids="GFg9JWLsim9QOm6BHPU6Ys,M91TpUsmVZaMOiuM6JZeOI" IsHidden="true" />
               <Link Id="OQheIABl0KcL7s3zDg52xv" Ids="TYq6aJuY8P4Pr3cU2MsFmM,UbmxUFkd42YPRqSsTTHfdz" />
               <Node Bounds="367,336,65,19" Id="CwmBmzKo9FlMwqFSGFMD2y">
                 <p:NodeReference LastCategoryFullName="Primitive.Object" LastSymbolSource="CoreLibBasics.vl">
@@ -489,6 +519,20 @@
               <Link Id="FIJbzNdz4KrNYMrRt8dx3S" Ids="QAyZ4S6O8MDPTo1zxi44GB,Fl0OcwhUzIbLwAwawOqlO7" />
             </Patch>
           </Node>
+          <!--
+
+    ************************ ToSpread (Backwards) ************************
+
+-->
+          <Pad Id="IgsEGOEvg6tLJJ3FXiFjsC" Bounds="492,338,58,22" ShowValueBox="true" isIOBox="true" Value="please, where is my unfold?!">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">5</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
           <Node Name="ToSpread (Backwards)" Bounds="742,332,375,261" Id="TsfpaDQZLqaMaDtFzMtztB">
             <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
               <Choice Kind="OperationDefinition" Name="Operation" />
@@ -670,6 +714,16 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
+>>>>>>>>> Temporary merge branch 2
+          <Pad Id="IgsEGOEvg6tLJJ3FXiFjsC" Bounds="492,338,58,22" ShowValueBox="true" isIOBox="true" Value="please, where is my unfold?!">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">5</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
         </Canvas>
       </Canvas>
     </Canvas>
@@ -695,15 +749,21 @@
             </Pin>
             <Pin Id="Qx1Mk7fnGUEMI5CCgTYGtI" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="392,319,293,127" Id="MyXkYlrrqk3Oqi5RHd2Iio">
+          <Node Bounds="392,334,301,138" Id="MyXkYlrrqk3Oqi5RHd2Iio">
+>>>>>>>>> Temporary merge branch 2
+          <Node Bounds="392,334,301,138" Id="MyXkYlrrqk3Oqi5RHd2Iio">
             <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
               <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
               <CategoryReference Kind="Category" Name="Primitive" />
             </p:NodeReference>
             <Pin Id="D8sO9ea3bi6MyOBoUk7chU" Name="Break" Kind="OutputPin" />
-            <ControlPoint Id="GKhF8K78Dp6PRgTA3H2ygQ" Bounds="406,333" Alignment="Top" />
-            <ControlPoint Id="IZfU6ojHPbKLcGZqoXn7rG" Bounds="544,333" Name="current" Alignment="Top" />
+            <ControlPoint Id="GKhF8K78Dp6PRgTA3H2ygQ" Bounds="406,340" Alignment="Top" />
+            <ControlPoint Id="IZfU6ojHPbKLcGZqoXn7rG" Bounds="586,340" Name="current" Alignment="Top" />
+            <ControlPoint Id="PnLEM8sAM5KLZnBUbNmGw0" Bounds="440,409" Name="current" Alignment="Bottom" />
+>>>>>>>>> Temporary merge branch 2
+            <ControlPoint Id="GKhF8K78Dp6PRgTA3H2ygQ" Bounds="406,340" Alignment="Top" />
+            <ControlPoint Id="IZfU6ojHPbKLcGZqoXn7rG" Bounds="586,340" Name="current" Alignment="Top" />
             <ControlPoint Id="PnLEM8sAM5KLZnBUbNmGw0" Bounds="420,440" Name="current" Alignment="Bottom" />
             <Patch Id="DwS055KgVuJMCbXp3YVuAN" ManuallySortedPins="true">
               <Patch Id="IW0j59SpLRDQRXciyc93R5" Name="Create" ManuallySortedPins="true" />
@@ -712,16 +772,41 @@
               </Patch>
               <Patch Id="B7keUgvYtrAMY3P9RMefT8" Name="Dispose" ManuallySortedPins="true" />
               <Node Bounds="418,364,97,26" Id="TJgSRmJJugGMgtLn5HxoLL">
-                <p:NodeReference LastCategoryFullName="Main.LinkedListItems.MutableLinkedListItem" LastSymbolSource="B.vl">
+                <p:NodeReference LastCategoryFullName="LinkedListItems.MutableLinkedListItem" LastSymbolSource="B.vl">
+>>>>>>>>> Temporary merge branch 2
+                <p:NodeReference LastCategoryFullName="LinkedListItems.MutableLinkedListItem" LastSymbolSource="B.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="Create" />
                   <CategoryReference Kind="ClassType" Name="MutableLinkedListItem" NeedsToBeDirectParent="true" />
                 </p:NodeReference>
                 <Pin Id="J9Yobx0H2LiMBpLHuS9yzW" Name="Value" Kind="InputPin" />
                 <Pin Id="HFZTaTE8NQsONUiZnBDUh0" Name="Previous" Kind="InputPin" />
+<<<<<<<<< Temporary merge branch 1
+                <Pin Id="TzNmNhAWPGuNhgAcsgePvQ" Name="Next" Kind="InputPin" />
+                <Pin Id="FXxjb3nRHHsL8ecmZTz5DT" Name="Output" Kind="StateOutputPin" />
                 <Pin Id="Hq1xAwjYG61NXUPXoMrzQS" Name="Next" Kind="InputPin" />
                 <Pin Id="FXxjb3nRHHsL8ecmZTz5DT" Name="Output" Kind="StateOutputPin" />
+                <Pin Id="FXxjb3nRHHsL8ecmZTz5DT" Name="Output" Kind="StateOutputPin" />
                 <Pin Id="TzNmNhAWPGuNhgAcsgePvQ" Name="Next" Kind="InputPin" />
+              </Node>
+              <Node Bounds="524,426,97,26" Id="V6Y9jY2FgiMMweGyyE3fpk">
+                <p:NodeReference LastCategoryFullName="LinkedListItems.MutableLinkedListItem" LastSymbolSource="B.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="OperationCallFlag" Name="SetNext" />
+                </p:NodeReference>
+                <Pin Id="Jg1q7FZg2b7NqnN4ZbPtfo" Name="Input" Kind="StateInputPin" />
+                <Pin Id="C9LLfLkDvrZPN5KqjhoEOz" Name="Next" Kind="InputPin" />
+                <Pin Id="RSVwyEo3gtZLT29BtyeyRw" Name="Output" Kind="StateOutputPin" />
+                <Pin Id="L5EgEAOCfpPNP5aZ4oiS8L" Name="Apply" Kind="InputPin" />
+              </Node>
+              <Node Bounds="616,395,65,19" Id="OcHL1CPhWa0PToKLboo9EN">
+                <p:NodeReference LastCategoryFullName="Primitive.Object" LastSymbolSource="CoreLibBasics.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="OperationCallFlag" Name="IsAssigned" />
+                </p:NodeReference>
+                <Pin Id="EhmGZlW75iCQX9SMbBq4Wx" Name="X" Kind="InputPin" />
+                <Pin Id="DtOeKYlsSniMJ41SpYuvbb" Name="Result" Kind="OutputPin" />
+                <Pin Id="Nk5NlRTwn7RM6EOSMm3CUU" Name="Not Assigned" Kind="OutputPin" />
               </Node>
               <Node Bounds="542,400,97,26" Id="EpZViCzM0YQLwjTok4elpO">
                 <p:NodeReference LastCategoryFullName="Main.LinkedListItems.MutableLinkedListItem" LastSymbolSource="B.vl">
@@ -743,27 +828,33 @@
                 <Pin Id="UEn3QMlhT4hM79gvShgktM" Name="Input 2" Kind="InputPin" />
                 <Pin Id="JnsbRHyqfIpOYt5k6pZgMg" Name="Result" Kind="OutputPin" />
               </Node>
-              <Node Bounds="524,426,97,26" Id="V6Y9jY2FgiMMweGyyE3fpk">
-                <p:NodeReference LastCategoryFullName="LinkedListItems.MutableLinkedListItem" LastSymbolSource="B.vl">
-                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <Choice Kind="OperationCallFlag" Name="SetNext" />
-                </p:NodeReference>
-                <Pin Id="Jg1q7FZg2b7NqnN4ZbPtfo" Name="Input" Kind="StateInputPin" />
-                <Pin Id="C9LLfLkDvrZPN5KqjhoEOz" Name="Next" Kind="InputPin" />
-                <Pin Id="RSVwyEo3gtZLT29BtyeyRw" Name="Output" Kind="StateOutputPin" />
-                <Pin Id="L5EgEAOCfpPNP5aZ4oiS8L" Name="Apply" Kind="InputPin" />
-              </Node>
-              <Node Bounds="616,395,65,19" Id="OcHL1CPhWa0PToKLboo9EN">
-                <p:NodeReference LastCategoryFullName="Primitive.Object" LastSymbolSource="CoreLibBasics.vl">
-                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <Choice Kind="OperationCallFlag" Name="IsAssigned" />
-                </p:NodeReference>
-                <Pin Id="EhmGZlW75iCQX9SMbBq4Wx" Name="X" Kind="InputPin" />
-                <Pin Id="DtOeKYlsSniMJ41SpYuvbb" Name="Result" Kind="OutputPin" />
-                <Pin Id="Nk5NlRTwn7RM6EOSMm3CUU" Name="Not Assigned" Kind="OutputPin" />
-              </Node>
-            </Patch>
             <ControlPoint Id="Ccl8i1GPyLUMhhC6C3i0nc" Bounds="406,466" Alignment="Bottom" />
+          </Node>
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="ToSequence" />
+            </p:NodeReference>
+            <Pin Id="VYNjoylfgRYLjFYVIWa3MC" Name="Input" Kind="InputPin" />
+            <Pin Id="VD1FJAI4w6BPHnP6I7rZPu" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="354,549,83,26" Id="OrdFtMVDv6FQLoCjjRiwSh">
+            <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="FromSequence" />
+              <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true" />
+            </p:NodeReference>
+            <Pin Id="QdZqGWS9eYBLiySLN7YA3Y" Name="Input" Kind="StateInputPin" />
+            <Pin Id="KIQNZQfLei9MMAAC8JFo4g" Name="Result" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="272,478,52,26" Id="M66JgtuK8tJMnd78yGuWvF">
+            <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="GetSlice" />
+              <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true" />
+            </p:NodeReference>
+            <Pin Id="EMyodjJHfnaLOOvtQXqovp" Name="Input" Kind="StateInputPin" />
+            <Pin Id="TtUl7ClXBK4P3Mt5TkkaXO" Name="Default Value" Kind="InputPin" />
+            <Pin Id="T80JTihr7wDMI7JqnG5SAg" Name="Index" Kind="InputPin" />
+            <Pin Id="J7LUymc22nrNKL5m1n7kuv" Name="Result" Kind="OutputPin" />
           </Node>
           <Node Bounds="388,593,71,19" Id="ETGQ8bKK5vSMK6ZCoICiq1">
             <p:NodeReference LastCategoryFullName="Main.LinkedListItems" LastSymbolSource="B.vl">
@@ -886,6 +977,15 @@
         <Link Id="QQ1lcvtp2JePrpzhf4TDGV" Ids="IZfU6ojHPbKLcGZqoXn7rG,PnLEM8sAM5KLZnBUbNmGw0" IsFeedback="true" />
         <Link Id="OBMny480vOIPzrXfkc92I9" Ids="IZfU6ojHPbKLcGZqoXn7rG,HFZTaTE8NQsONUiZnBDUh0" />
         <Link Id="QObFPg1lTGfM4gHHtrOia3" Ids="FXxjb3nRHHsL8ecmZTz5DT,PnLEM8sAM5KLZnBUbNmGw0" />
+<<<<<<<<< Temporary merge branch 1
+        <Link Id="D3HdQ2H2IjwMby6IyA4XG5" Ids="VD1FJAI4w6BPHnP6I7rZPu,QdZqGWS9eYBLiySLN7YA3Y" />
+        <Link Id="GRozwJQG4NKM2SwkfJXrXp" Ids="FXxjb3nRHHsL8ecmZTz5DT,Ccl8i1GPyLUMhhC6C3i0nc" />
+        <Link Id="KpQfSOwQDzkLFLMSygbpvP" Ids="Ccl8i1GPyLUMhhC6C3i0nc,EMyodjJHfnaLOOvtQXqovp" />
+        <Link Id="Ddge46WwVaGPhhu1dWf6IE" Ids="J7LUymc22nrNKL5m1n7kuv,VYNjoylfgRYLjFYVIWa3MC" />
+        <Link Id="S6Hdg0Z4OVlPuL1GNZrLvH" Ids="IZfU6ojHPbKLcGZqoXn7rG,Jg1q7FZg2b7NqnN4ZbPtfo" />
+        <Link Id="Dy2EAKuiEjwOqSYmPJjEsB" Ids="FXxjb3nRHHsL8ecmZTz5DT,C9LLfLkDvrZPN5KqjhoEOz" />
+        <Link Id="Kz7FNPVXSjHLNRHYdFqF1V" Ids="DtOeKYlsSniMJ41SpYuvbb,L5EgEAOCfpPNP5aZ4oiS8L" />
+        <Link Id="NP20uuV2SrxLnOmyVAkgOE" Ids="IZfU6ojHPbKLcGZqoXn7rG,EhmGZlW75iCQX9SMbBq4Wx" />
         <Link Id="CMoXzyKVj0oMv9wyojZjuT" Ids="PnLEM8sAM5KLZnBUbNmGw0,R3Puqr3lqqPLSoJTuShO6p" />
         <Link Id="NyBuAdPM8u8PO6agoDMmYk" Ids="F8qCWIWQNPQQAae9tuuDdg,P5QRVofpxZUP2UK4Sro6k0" />
         <Link Id="PBmPMGANniaPY6coTGabfC" Ids="PnLEM8sAM5KLZnBUbNmGw0,DuOZoa4EVy5PO0cY5LU2sV" />
@@ -898,6 +998,15 @@
         <Link Id="J9PHVv4XbZfMEFzgpE3W2K" Ids="IjRq2MPPvZGNCnwXiTGJjZ,NZ2R2OCe1pYOL452pU7M5P" IsHidden="true" />
         <Link Id="F3XfSsrx5TbLNai8G6I922" Ids="NZ2R2OCe1pYOL452pU7M5P,ONEF3Gz8VVOPUtUXyEA5lQ" />
         <Link Id="EXy3JklpE1SOZGVoiTRvmd" Ids="JnsbRHyqfIpOYt5k6pZgMg,JfPMNZ9Kn58OJRo9pJPd0J" />
+        <Link Id="D3HdQ2H2IjwMby6IyA4XG5" Ids="VD1FJAI4w6BPHnP6I7rZPu,QdZqGWS9eYBLiySLN7YA3Y" />
+        <Link Id="GRozwJQG4NKM2SwkfJXrXp" Ids="FXxjb3nRHHsL8ecmZTz5DT,Ccl8i1GPyLUMhhC6C3i0nc" />
+        <Link Id="KpQfSOwQDzkLFLMSygbpvP" Ids="Ccl8i1GPyLUMhhC6C3i0nc,EMyodjJHfnaLOOvtQXqovp" />
+        <Link Id="Ddge46WwVaGPhhu1dWf6IE" Ids="J7LUymc22nrNKL5m1n7kuv,VYNjoylfgRYLjFYVIWa3MC" />
+        <Link Id="S6Hdg0Z4OVlPuL1GNZrLvH" Ids="IZfU6ojHPbKLcGZqoXn7rG,Jg1q7FZg2b7NqnN4ZbPtfo" />
+        <Link Id="Dy2EAKuiEjwOqSYmPJjEsB" Ids="FXxjb3nRHHsL8ecmZTz5DT,C9LLfLkDvrZPN5KqjhoEOz" />
+        <Link Id="Kz7FNPVXSjHLNRHYdFqF1V" Ids="DtOeKYlsSniMJ41SpYuvbb,L5EgEAOCfpPNP5aZ4oiS8L" />
+        <Link Id="NP20uuV2SrxLnOmyVAkgOE" Ids="IZfU6ojHPbKLcGZqoXn7rG,EhmGZlW75iCQX9SMbBq4Wx" />
+>>>>>>>>> Temporary merge branch 2
         <Link Id="D3HdQ2H2IjwMby6IyA4XG5" Ids="VD1FJAI4w6BPHnP6I7rZPu,QdZqGWS9eYBLiySLN7YA3Y" />
         <Link Id="GRozwJQG4NKM2SwkfJXrXp" Ids="FXxjb3nRHHsL8ecmZTz5DT,Ccl8i1GPyLUMhhC6C3i0nc" />
         <Link Id="KpQfSOwQDzkLFLMSygbpvP" Ids="Ccl8i1GPyLUMhhC6C3i0nc,EMyodjJHfnaLOOvtQXqovp" />
